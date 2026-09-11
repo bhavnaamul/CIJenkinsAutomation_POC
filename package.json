@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "tests:login": "playwright test tests/E2E/e2e-login.spec.ts --config=Config/e2e.config.ts --project=Chromium --headed",
-    "tests:login:headless": "playwright test tests/E2E/e2e-login.spec.ts --config=Config/e2e.config.ts --project=Chromium"
+    "tests:login:headless": "playwright test tests/E2E/e2e-login.spec.ts --config=Config/e2e.config.ts --project=Chromium",
+     "tests:transfer": "playwright test tests/E2E/e2e-Transfer.spec.ts --config=Config/e2e.config.ts --project=Chromium "
+
   },
   "keywords": [],
   "author": "",
