@@ -1,0 +1,18 @@
+[
+    { "username" : "standard_user1",
+      "password": "bank_sauce"
+    },
+    { "username" : "slow_user1",
+      "password": "bank_sauce"
+    },
+    { "username" : "locked_user1",
+      "password": "bank_sauce"
+    },
+     { "username" : "frozen_user1",
+      "password": "bank_sauce"
+    },
+     { "username" : "overdraft_user1",
+      "password": "bank_sauce"
+    }
+     
+]

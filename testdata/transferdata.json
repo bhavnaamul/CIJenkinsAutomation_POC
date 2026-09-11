@@ -1,0 +1,42 @@
+[
+  {
+    "fromAccount": "Checking",
+    "toAccount": "Savings",
+    "amount": "1.09",
+    "expectedResult": "success",
+    "expectedMessage": "Transfer Successful"
+  },
+  {
+    "fromAccount": "Checking",
+    "toAccount": "Savings",
+    "amount": "10",
+    "expectedResult": "success",
+    "expectedMessage": "Transfer Successful"
+  },
+  {
+    "fromAccount": "Checking",
+    "toAccount": "Savings",
+    "amount": "0.00",
+    "expectedResult": "error",
+    "expectedMessage": "Please enter a valid amount."
+  },
+  {
+    "fromAccount": "Checking",
+    "toAccount": "Savings",
+    "amount": "30",
+    "expectedResult": "success",
+    "expectedMessage": "Transfer Successful"
+  },
+   {
+    "amount": "50000",
+    "expectedResult": "error",
+    "expectedMessage": "Insufficient funds. Available balance: $4,256.98."
+  },
+
+  {
+    "amount": "-090",
+    "expectedResult": "error",
+    "expectedMessage": "Please enter a valid amount."
+  }
+
+]
